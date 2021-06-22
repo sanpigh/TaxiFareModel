@@ -1,4 +1,12 @@
 # ----------------------------------
+#          Project tests
+# ----------------------------------
+data:
+#	python -m TaxiFareModel.data
+#	python -m TaxiFareModel.encoders
+	python -m TaxiFareModel.trainer
+
+# ----------------------------------
 #          INSTALL & TEST
 # ----------------------------------
 install_requirements:

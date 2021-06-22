@@ -25,4 +25,5 @@ def clean_data(df, test=False):
 
 
 if __name__ == '__main__':
-    df = get_data()
+    df = get_data(3)
+    print(clean_data(df))
